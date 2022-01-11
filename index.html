@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Titillium+Web:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Movie site</title>
+</head>
+
+<body>
+    <div>
+        <h1>Greatest movies of all time</h1>
+
+        <ul id="movie-list">
+            <li>Sin City <button class="rmv-btn" onclick="remove(this)">X</button></li>
+            <li>The Matrix <button class="rmv-btn" onclick="remove(this)">X</button></li>
+            <li>Avengers - Endgame <button class="rmv-btn" onclick="remove(this)">X</button></li>
+            <li>Snatch <button class="rmv-btn" onclick="remove(this)">X</button></li>
+            <li>Ocean's Eleven <button class="rmv-btn" onclick="remove(this)">X</button></li>
+            <li>Kill Bill <button class="rmv-btn" onclick="remove(this)">X</button></li>
+            <li>Fight Club <button class="rmv-btn" onclick="remove(this)">X</button></li>
+            <li>Baby Driver <button class="rmv-btn" onclick="remove(this)">X</button></li>
+            <li>Iron Man <button class="rmv-btn" onclick="remove(this)">X</button></li>
+            <li>Inglorious Basterds <button class="rmv-btn" onclick="remove(this)">X</button></li>
+        </ul>
+        <button onclick="sortList()">Sort A-Z</button>
+        <br>
+        <br>
+        <label for="new-movie">Add your own favourite movies</label><br>
+        <input type="text" id="new-movie">
+        <button onclick="addMovie()">Add</button>
+        <br>
+        <br>
+        <label for="search">Search</label><br>
+        <input id="search" type="text">
+
+
+    </div>
+    <script src='script.js'></script>
+
+</body>
+
+</html>

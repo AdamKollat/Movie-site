@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.rmv-btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 3px;
+    border: 1px solid #a12727;
+    border-radius: 62px;
+    background: #ff4a4a;
+    color: #ffffff;
+    text-decoration: none;
+}
+
