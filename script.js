@@ -30,6 +30,7 @@ const addMovie = () => {
     let deleteButton = document.createElement("button");
     deleteButton.innerText = "X";
     deleteButton.className = "rmv-btn";
+    element.className = "list-style";
     element.innerHTML = input;
     element.appendChild(deleteButton);
     list.appendChild(element);
